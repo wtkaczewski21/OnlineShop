@@ -1,0 +1,8 @@
+E:\Git Projekty\projektbackebnd\Lab_Backend\Lab_Backend\obj\Debug\net5.0\Lab_Backend.csproj.AssemblyReference.cache
+E:\Git Projekty\projektbackebnd\Lab_Backend\Lab_Backend\obj\Debug\net5.0\Lab_Backend.GeneratedMSBuildEditorConfig.editorconfig
+E:\Git Projekty\projektbackebnd\Lab_Backend\Lab_Backend\obj\Debug\net5.0\Lab_Backend.AssemblyInfoInputs.cache
+E:\Git Projekty\projektbackebnd\Lab_Backend\Lab_Backend\obj\Debug\net5.0\Lab_Backend.AssemblyInfo.cs
+E:\Git Projekty\projektbackebnd\Lab_Backend\Lab_Backend\obj\Debug\net5.0\Lab_Backend.csproj.CoreCompileInputs.cache
+E:\Git Projekty\projektbackebnd\Lab_Backend\Lab_Backend\obj\Debug\net5.0\Lab_Backend.MvcApplicationPartsAssemblyInfo.cache
+E:\Git Projekty\projektbackebnd\Lab_Backend\Lab_Backend\obj\Debug\net5.0\Lab_Backend.RazorAssemblyInfo.cache
+E:\Git Projekty\projektbackebnd\Lab_Backend\Lab_Backend\obj\Debug\net5.0\Lab_Backend.RazorAssemblyInfo.cs
