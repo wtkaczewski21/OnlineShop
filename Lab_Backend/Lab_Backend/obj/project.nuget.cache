@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "yX71bEeVG1IVEAJXh3vQg/SDzJqykMhmgJ5hD9+yTOHB7MNzvfzdJjd0pJ2VZfhgmniWfko22xm2kw6mkrzu9Q==",
+  "dgSpecHash": "gDvWT8Z27awtJS0W3apDp918+E3bm9T/TVMaYKTug7ABpbmIzzj4kMtzUTms5KeSZ2HnLTomGWjQv81UYw1Pvw==",
   "success": true,
-  "projectFilePath": "E:\\Git Projekty\\projektbackebnd\\Lab_Backend\\Lab_Backend\\Lab_Backend.csproj",
+  "projectFilePath": "E:\\Git Projekty\\Projekt_Backend\\Lab_Backend\\Lab_Backend\\Lab_Backend.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\wojta\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\wojta\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",

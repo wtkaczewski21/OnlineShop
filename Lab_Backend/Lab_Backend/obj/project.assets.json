@@ -5802,11 +5802,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\Git Projekty\\projektbackebnd\\Lab_Backend\\Lab_Backend\\Lab_Backend.csproj",
+      "projectUniqueName": "E:\\Git Projekty\\Projekt_Backend\\Lab_Backend\\Lab_Backend\\Lab_Backend.csproj",
       "projectName": "Lab_Backend",
-      "projectPath": "E:\\Git Projekty\\projektbackebnd\\Lab_Backend\\Lab_Backend\\Lab_Backend.csproj",
+      "projectPath": "E:\\Git Projekty\\Projekt_Backend\\Lab_Backend\\Lab_Backend\\Lab_Backend.csproj",
       "packagesPath": "C:\\Users\\wojta\\.nuget\\packages\\",
-      "outputPath": "E:\\Git Projekty\\projektbackebnd\\Lab_Backend\\Lab_Backend\\obj\\",
+      "outputPath": "E:\\Git Projekty\\Projekt_Backend\\Lab_Backend\\Lab_Backend\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\wojta\\AppData\\Roaming\\NuGet\\NuGet.Config",
