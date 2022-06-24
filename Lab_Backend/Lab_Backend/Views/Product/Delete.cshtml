@@ -1,0 +1,48 @@
+﻿@model Lab_Backend.Models.Product
+@{
+    ViewData["Title"] = "Delete";
+}
+<br />
+<h2 class="text-info">Delete Confirm</h2>
+<form asp-action="Delete" method="post" enctype="multipart/form-data">
+    <div class="p-4 rounded border row">
+        <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+        <div class="col-8">
+            <div class="form-group row">
+                <div class="col-4">
+                    <label asp-for="Name"></label>
+                </div>
+                <div class="col-8">
+                    <input type="hidden" asp-for="Id" />
+                    <input asp-for="Name" readonly="readonly" class="form-control" />
+                </div>
+                <span asp-validation-for="Name" class="text-danger"></span>
+            </div>
+            <div class="form-group row">
+                <div class="col-4">
+                    <label asp-for="Price"></label>
+                </div>
+                <div class="col-8">
+                    <input asp-for="Price" readonly="readonly" class="form-control" />
+                </div>
+            </div>
+            <div class="form-group row">
+                <div class="col-4">
+                    <label asp-for="ProductBrandId"></label>
+                </div>
+                <div class="col-8">
+                    <input asp-for="ProductBrand.Name" readonly="readonly" class="form-control" />
+                </div>
+                <span asp-validation-for="ProductBrandId" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <a asp-action="Index" class="btn btn-primary">Back to List</a>
+                @Html.AntiForgeryToken()
+                <input type="submit" asp-action="Delete" asp-route-id="@Model.Id" class="btn btn-danger" value="Delete" />
+            </div>
+        </div>
+        <div class="col-4">
+            <img src="@Model.Image" width="100%" />
+        </div>
+    </div>
+</form>

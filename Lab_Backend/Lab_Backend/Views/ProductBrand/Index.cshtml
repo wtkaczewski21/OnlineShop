@@ -1,0 +1,40 @@
+﻿@model IEnumerable<Lab_Backend.Models.ProductBrand>
+@{
+    ViewData["Title"] = "Brands";
+}
+<div class="container p-3">
+    <div class="row pt-4">
+        <div class="col-6">
+            <h2 class="text-primary">Brands</h2>
+        </div>
+        <div class="col-6 text-right">
+            <a class="btn btn-primary" asp-controller="ProductBrand" asp-action="Create">Create New Brand</a>
+        </div>
+    </div>
+    <form class="form-inline" asp-controller="ProductBrand" asp-action="Filter">
+        <input name="searchString" type="text" class="form-control" placeholder="Search...">
+        <button class="btn btn-primary" type="submit"><i class="bi bi-search"></i></button>
+    </form>
+        <table class="table">
+            <thead>
+                <tr>
+                    <th>@Html.DisplayNameFor(model => model.Logo)</th>
+                    <th>@Html.DisplayNameFor(model => model.Name)</th>
+                    <th class="text-center">Actions</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var item in Model)
+                {
+                    <tr>
+                        <td class="align-middle"><img src="@item.Logo" width="150px" /></td>
+                        <td class="align-middle">@item.Name</td>
+                        <td class="align-middle text-center">
+                            <a class="btn btn-primary" asp-action="Edit" asp-route-id="@item.Id"><i class="bi bi-pencil-square"></i>Edit</a>
+                            <a class="btn btn-danger" asp-action="Delete" asp-route-id="@item.Id"><i class="bi bi-trash"></i>Delete</a>
+                        </td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+</div>

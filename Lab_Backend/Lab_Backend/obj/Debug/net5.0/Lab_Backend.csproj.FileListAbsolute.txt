@@ -75,3 +75,13 @@ E:\Git Projekty\Projekt_Backend\Lab_Backend\Lab_Backend\obj\Debug\net5.0\Lab_Bac
 E:\Git Projekty\Projekt_Backend\Lab_Backend\Lab_Backend\obj\Debug\net5.0\Lab_Backend.csproj.CopyComplete
 E:\Git Projekty\Projekt_Backend\Lab_Backend\Lab_Backend\obj\Debug\net5.0\Lab_Backend.genruntimeconfig.cache
 E:\Git Projekty\Projekt_Backend\Lab_Backend\Lab_Backend\obj\Debug\net5.0\ref\Lab_Backend.dll
+E:\Git Projekty\Projekt_Backend\Lab_Backend\Lab_Backend\obj\Debug\net5.0\Razor\Views\Product\Create.cshtml.g.cs
+E:\Git Projekty\Projekt_Backend\Lab_Backend\Lab_Backend\obj\Debug\net5.0\Razor\Views\Product\Delete.cshtml.g.cs
+E:\Git Projekty\Projekt_Backend\Lab_Backend\Lab_Backend\obj\Debug\net5.0\Razor\Views\Product\Details.cshtml.g.cs
+E:\Git Projekty\Projekt_Backend\Lab_Backend\Lab_Backend\obj\Debug\net5.0\Razor\Views\Product\Edit.cshtml.g.cs
+E:\Git Projekty\Projekt_Backend\Lab_Backend\Lab_Backend\obj\Debug\net5.0\Razor\Views\Product\Index.cshtml.g.cs
+E:\Git Projekty\Projekt_Backend\Lab_Backend\Lab_Backend\obj\Debug\net5.0\Razor\Views\ProductBrand\Create.cshtml.g.cs
+E:\Git Projekty\Projekt_Backend\Lab_Backend\Lab_Backend\obj\Debug\net5.0\Razor\Views\ProductBrand\Delete.cshtml.g.cs
+E:\Git Projekty\Projekt_Backend\Lab_Backend\Lab_Backend\obj\Debug\net5.0\Razor\Views\ProductBrand\Edit.cshtml.g.cs
+E:\Git Projekty\Projekt_Backend\Lab_Backend\Lab_Backend\obj\Debug\net5.0\Razor\Views\ProductBrand\Index.cshtml.g.cs
+E:\Git Projekty\Projekt_Backend\Lab_Backend\Lab_Backend\obj\Debug\net5.0\Razor\Views\Shared\NotFound.cshtml.g.cs
