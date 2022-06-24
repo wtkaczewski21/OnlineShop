@@ -26,7 +26,20 @@ namespace Lab_Backend.Controllers
         {
             var data = await _service.GetAllAsync();
             return View(data);
-        }    
+        }
+
+        public async Task<IActionResult> Filter(string searchString)
+        {
+            var products = await _service.GetAllAsync();
+
+            if (!string.IsNullOrEmpty(searchString))
+            {
+                var filteredResult = products.Where(x => x.Name.ToLower().Contains(searchString.ToLower())).ToList();
+                return View("Index", filteredResult);
+            }
+
+            return View("Index", products);
+        }
 
         //GET: Create
         public async Task<IActionResult> Create()
