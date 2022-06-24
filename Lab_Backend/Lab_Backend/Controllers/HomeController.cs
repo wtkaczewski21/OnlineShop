@@ -13,7 +13,7 @@ namespace Lab_Backend.Controllers
 {
     public class HomeController : Controller
     {
-        private AppDbContext _db;
+        private readonly AppDbContext _db;
         public HomeController(AppDbContext db)
         {
             _db = db;
