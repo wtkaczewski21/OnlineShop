@@ -1,4 +1,5 @@
 using Lab_Backend.Data;
+using Lab_Backend.Data.Services;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.HttpsPolicy;
@@ -29,6 +30,10 @@ namespace Lab_Backend
             services.AddDbContext<AppDbContext>(options =>
                 options.UseSqlServer(
                     Configuration.GetConnectionString("DefaultConnection")));
+
+            //Services configuration
+            services.AddScoped<IProductService, ProductService>();
+            services.AddScoped<IProductBrandService, ProductBrandService>();
 
             services.AddControllersWithViews();
         }
