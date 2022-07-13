@@ -26,8 +26,22 @@ using Lab_Backend.Models;
 #line default
 #line hidden
 #nullable disable
+#nullable restore
+#line 3 "E:\Git Projekty\Projekt_Backend\Lab_Backend\Lab_Backend\Views\_ViewImports.cshtml"
+using Lab_Backend.Data.ViewModels;
+
+#line default
+#line hidden
+#nullable disable
+#nullable restore
+#line 4 "E:\Git Projekty\Projekt_Backend\Lab_Backend\Lab_Backend\Views\_ViewImports.cshtml"
+using Microsoft.AspNetCore.Identity;
+
+#line default
+#line hidden
+#nullable disable
     [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"70ce82cfdd182fc4adf1cde42b39e1d7847c7bf4", @"/Views/Product/Index.cshtml")]
-    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"4c22bb2202752fd505e1849b3355fd58bd0845d7", @"/Views/_ViewImports.cshtml")]
+    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"de71b142993b72f75f216812ad6bf2956cec60b6", @"/Views/_ViewImports.cshtml")]
     #nullable restore
     public class Views_Product_Index : global::Microsoft.AspNetCore.Mvc.Razor.RazorPage<IEnumerable<Lab_Backend.Models.Product>>
     #nullable disable
@@ -77,7 +91,7 @@ using Lab_Backend.Models;
 #line hidden
 #nullable disable
             WriteLiteral("<div class=\"container p-3\">\r\n    <div class=\"row pt-4\">\r\n        <div class=\"col-6\">\r\n            <h2 class=\"text-primary\">Products</h2>\r\n        </div>\r\n        <div class=\"col-6 text-right\">\r\n                ");
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "70ce82cfdd182fc4adf1cde42b39e1d7847c7bf47098", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "70ce82cfdd182fc4adf1cde42b39e1d7847c7bf47496", async() => {
                 WriteLiteral("Create New Product");
             }
             );
@@ -96,7 +110,7 @@ using Lab_Backend.Models;
             Write(__tagHelperExecutionContext.Output);
             __tagHelperExecutionContext = __tagHelperScopeManager.End();
             WriteLiteral("\r\n        </div>\r\n    </div>\r\n    ");
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("form", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "70ce82cfdd182fc4adf1cde42b39e1d7847c7bf48590", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("form", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "70ce82cfdd182fc4adf1cde42b39e1d7847c7bf48988", async() => {
                 WriteLiteral("\r\n        <input name=\"searchString\" type=\"text\" class=\"form-control\" placeholder=\"Search...\">\r\n        <button class=\"btn btn-primary\" type=\"submit\"><i class=\"bi bi-search\"></i></button>\r\n    ");
             }
             );
@@ -158,7 +172,7 @@ using Lab_Backend.Models;
 #line hidden
 #nullable disable
             WriteLiteral("</td>\r\n                    <td class=\"text-center\">");
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "70ce82cfdd182fc4adf1cde42b39e1d7847c7bf412260", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "70ce82cfdd182fc4adf1cde42b39e1d7847c7bf412658", async() => {
                 WriteLiteral("<i class=\"bi bi-eye\"></i>Details");
             }
             );
@@ -190,7 +204,7 @@ using Lab_Backend.Models;
             Write(__tagHelperExecutionContext.Output);
             __tagHelperExecutionContext = __tagHelperScopeManager.End();
             WriteLiteral("</td>\r\n                    \r\n                        <td class=\"align-middle text-center\">\r\n                            ");
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "70ce82cfdd182fc4adf1cde42b39e1d7847c7bf414700", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "70ce82cfdd182fc4adf1cde42b39e1d7847c7bf415098", async() => {
                 WriteLiteral("<i class=\"bi bi-pencil-square\"></i>Edit");
             }
             );
@@ -222,7 +236,7 @@ using Lab_Backend.Models;
             Write(__tagHelperExecutionContext.Output);
             __tagHelperExecutionContext = __tagHelperScopeManager.End();
             WriteLiteral("\r\n                            ");
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "70ce82cfdd182fc4adf1cde42b39e1d7847c7bf417035", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "70ce82cfdd182fc4adf1cde42b39e1d7847c7bf417433", async() => {
                 WriteLiteral("<i class=\"bi bi-trash\"></i>Delete");
             }
             );

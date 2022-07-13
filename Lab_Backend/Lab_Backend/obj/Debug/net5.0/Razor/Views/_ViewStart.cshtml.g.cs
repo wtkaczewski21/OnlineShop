@@ -26,8 +26,22 @@ using Lab_Backend.Models;
 #line default
 #line hidden
 #nullable disable
+#nullable restore
+#line 3 "E:\Git Projekty\Projekt_Backend\Lab_Backend\Lab_Backend\Views\_ViewImports.cshtml"
+using Lab_Backend.Data.ViewModels;
+
+#line default
+#line hidden
+#nullable disable
+#nullable restore
+#line 4 "E:\Git Projekty\Projekt_Backend\Lab_Backend\Lab_Backend\Views\_ViewImports.cshtml"
+using Microsoft.AspNetCore.Identity;
+
+#line default
+#line hidden
+#nullable disable
     [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"7091c65830b0329e613be026ede8a57552863778", @"/Views/_ViewStart.cshtml")]
-    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"4c22bb2202752fd505e1849b3355fd58bd0845d7", @"/Views/_ViewImports.cshtml")]
+    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"de71b142993b72f75f216812ad6bf2956cec60b6", @"/Views/_ViewImports.cshtml")]
     #nullable restore
     public class Views__ViewStart : global::Microsoft.AspNetCore.Mvc.Razor.RazorPage<dynamic>
     #nullable disable

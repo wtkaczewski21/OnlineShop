@@ -26,8 +26,22 @@ using Lab_Backend.Models;
 #line default
 #line hidden
 #nullable disable
+#nullable restore
+#line 3 "E:\Git Projekty\Projekt_Backend\Lab_Backend\Lab_Backend\Views\_ViewImports.cshtml"
+using Lab_Backend.Data.ViewModels;
+
+#line default
+#line hidden
+#nullable disable
+#nullable restore
+#line 4 "E:\Git Projekty\Projekt_Backend\Lab_Backend\Lab_Backend\Views\_ViewImports.cshtml"
+using Microsoft.AspNetCore.Identity;
+
+#line default
+#line hidden
+#nullable disable
     [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"e2db86b2bca70b8fbab6fcabc9c942511475a4a4", @"/Views/Shared/NotFound.cshtml")]
-    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"4c22bb2202752fd505e1849b3355fd58bd0845d7", @"/Views/_ViewImports.cshtml")]
+    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"de71b142993b72f75f216812ad6bf2956cec60b6", @"/Views/_ViewImports.cshtml")]
     #nullable restore
     public class Views_Shared_NotFound : global::Microsoft.AspNetCore.Mvc.Razor.RazorPage<dynamic>
     #nullable disable
@@ -60,7 +74,7 @@ using Lab_Backend.Models;
         public async override global::System.Threading.Tasks.Task ExecuteAsync()
         {
             WriteLiteral("<div class=\"row\">\r\n    <div class=\"col-md-6 offset-3\">\r\n        <h1>Not Found</h1>\\\r\n        <hr />\r\n        ");
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "e2db86b2bca70b8fbab6fcabc9c942511475a4a44216", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "e2db86b2bca70b8fbab6fcabc9c942511475a4a44614", async() => {
                 WriteLiteral("Home Page");
             }
             );

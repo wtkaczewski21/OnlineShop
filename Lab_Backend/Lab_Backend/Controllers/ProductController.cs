@@ -1,5 +1,7 @@
-﻿using Lab_Backend.Data.Services;
+﻿using Lab_Backend.Data;
+using Lab_Backend.Data.Services;
 using Lab_Backend.Models;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
@@ -11,6 +13,7 @@ using System.Threading.Tasks;
 
 namespace Lab_Backend.Controllers
 {
+    [Authorize(Roles = UserRoles.Admin)]
     public class ProductController : Controller
     {
         private readonly IProductService _service;
@@ -22,12 +25,14 @@ namespace Lab_Backend.Controllers
             _he = he;
         }
 
+        [AllowAnonymous]
         public async Task<IActionResult> Index()
         {
             var data = await _service.GetAllAsync();
             return View(data);
         }
 
+        [AllowAnonymous]
         public async Task<IActionResult> Filter(string searchString)
         {
             var products = await _service.GetAllAsync();
@@ -113,6 +118,7 @@ namespace Lab_Backend.Controllers
             return RedirectToAction(nameof(Index));
         }
 
+        [AllowAnonymous]
         //GET: Details
         public async Task<IActionResult> Details(int id)
         {

@@ -1,5 +1,7 @@
-﻿using Lab_Backend.Data.Services;
+﻿using Lab_Backend.Data;
+using Lab_Backend.Data.Services;
 using Lab_Backend.Models;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
@@ -10,6 +12,7 @@ using System.Threading.Tasks;
 
 namespace Lab_Backend.Controllers
 {
+    [Authorize(Roles = UserRoles.Admin)]
     public class ProductBrandController : Controller
     {
         private readonly IProductBrandService _service;

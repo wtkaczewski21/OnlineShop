@@ -18,10 +18,16 @@ namespace Lab_Backend.Data
             modelBuilder.Entity<Product>()
                     .Property(p => p.Price)
                     .HasColumnType("decimal(10,2)");
+
+            modelBuilder.Entity<OrderItem>()
+                    .Property(p => p.Price)
+                    .HasColumnType("decimal(10,2)");
         }
 
         public DbSet<Product> Products { get; set; }
         public DbSet<ProductBrand> ProductBrands { get; set; }
         public DbSet<ShoppingCartItem> ShoppingCartItems { get; set; }
+        public DbSet<Order> Orders { get; set; }
+        public DbSet<OrderItem> OrderItems { get; set; }
     }
 }
