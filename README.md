@@ -5,8 +5,8 @@
 * MS Sql Server
 * ...
 ## Setup
-Before run
-* Type "update-database" in package manager console to add data
+* Run using Visual Studio
+* Before run type "update-database" in package manager console to create database and add data
 ## Admin User
 * Login: admin@onlineshop.com
 * Password: Admin123@
